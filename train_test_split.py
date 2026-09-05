@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from rdkit import Chem, rdBase
 from rdkit.Chem import Descriptors
-from rdkit.Chem import rdFingerprintGenerator  # 引入新的指纹生成器
+from rdkit.Chem import rdFingerprintGenerator 
 from mordred import Calculator, descriptors
 import xgboost as xgb
 from sklearn.model_selection import train_test_split
