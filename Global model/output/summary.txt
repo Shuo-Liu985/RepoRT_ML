@@ -1,0 +1,15 @@
+=== Global Model Summary ===
+Samples: 14081
+Datasets total: 20, after Winsorize: 16
+
+LODO Metrics (after Winsorize, median [IQR]):
+  Q2: 0.4662 [0.4568]
+  MAE: 1.5638 [0.9060]
+  RMSE: 1.8565 [0.9778]
+
+Top-5 Features:
+  column.name__Waters ACQUITY UPLC BEH C18: 0.0685
+  RDKit_NHOHCount: 0.0577
+  RDKit_MolLogP: 0.0376
+  RDKit_VSA_EState3: 0.0281
+  RDKit_MolMR: 0.0255
